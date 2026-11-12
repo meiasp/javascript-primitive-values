@@ -6,7 +6,10 @@ let firstParagraph =
 let secondParagraph =
   "I'm heading back to Colorado tomorrow after being down in Santa Barbara over the weekend for the festival there. I will be making October plans once there and will try to arrange so I'm back here for the birthday if possible. I'll let you know as soon as I know the doctor's appointment schedule and my flight plans.";
 
-let thirdParagraph =
+let thirdParagraph = 
   "It was going to rain. The weather forecast didn't say that, but the steel plate in his hip did. He had learned over the years to trust his hip over the weatherman. It was going to rain, so he better get outside and prepare.";
 // Start coding here
-let article;
+let article = `${firstParagraph} 
+${secondParagraph} 
+${thirdParagraph}`
+console.log(article);
